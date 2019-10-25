@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: airbnb
+    database: learn_raw
+    #loaded_at_field:
+
+    #freshness:
+      #error_after: {count: 28, period: hour}
+
+    tables:
+      - name: listings
+      - name: reviews
